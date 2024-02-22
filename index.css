@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg-container {
+    background-image: url("https://wallpapercave.com/wp/wp3724619.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:578px) {
+    .bg-container {
+        flex-direction: row;
+        align-items: center;
+
+    }
+}
+
+.watch-background {
+    background-color: transparent;
+    box-shadow: 10px 10px 30px black;
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width:768px) {
+    .watch-background {
+        margin-left: 50px;
+        border-radius: 100%;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.time {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-size: 35px;
+    align-self: center;
+}
+
+@media (min-width:768px) {
+    .time {
+        font-size: 80px;
+    }
+}
+
+.dot {
+    font-family: "Sans-Serif";
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 10px black;
+    font-size: 45px;
+    align-self: center;
+    margin-bottom: 8px;
+}
+
+@media (min-width:768px) {
+    .dot {
+        font-size: 80px !important;
+    }
+}
+
+.ampm {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 0px 0px 10px black;
+    font-size: 25px;
+    align-self: center;
+}
+
+@media (min-width:768px) {
+    .ampm {
+        font-size: 50px;
+    }
+}
